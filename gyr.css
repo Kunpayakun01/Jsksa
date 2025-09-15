@@ -1,0 +1,36 @@
+.sve-bt {
+      font-size: 18px;
+      color: #ffff;
+      border: none;
+      background: #118EEA;
+      width: 320px;
+      height: 43px;
+      cursor: pointer;
+      border-radius: 5px;
+      place-content: center;
+      font-weight: 410;
+    }
+    
+.sve-bt:hover {
+  background-color: #75bded;
+}
+    
+.loader {
+      margin-left: 142px;
+      pointer-events: none;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #fff;
+      animation: an1 1s ease infinite;
+    }
+    
+    @keyframes an1 {
+      0% {
+       transform: rotate(0turn);
+      }
+      100% {
+        transform: rotate(1turn);
+      }
+    }
